@@ -1,0 +1,42 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Card profile image and varified badge bellow */
+.profile-img{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    margin-right: 5px;
+}
+#verified-badge{
+    color: #2568EF;
+}
+
+/* Card image container Start here */
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+ 
+  }
+  /* Bottom right text */
+  .img-text {
+    position: absolute;
+    bottom: 14px;
+    right: 10px;
+    font-size: 8px;
+    font-style: italic;
+    background-color: black;
+    border-radius: 2px;
+    
+}
+/* Card image container end here */
